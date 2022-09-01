@@ -1,9 +1,9 @@
 terraform {
   cloud {
-    organization = "KiranMandadi"
+    organization = "" // mention organization name
 
     workspaces {
-      name = "CLI-Workspace"
+      name = "" // mention workspace name
     }
   }
 }
